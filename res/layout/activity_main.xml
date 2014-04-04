@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/psbg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    
+    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="117dp"
+        android:shadowColor="@color/Black"
+        android:shadowDx="1.2"
+        android:shadowDy="1.2"
+        android:shadowRadius="1.2"
+        android:text="Penny Saved"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/White"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:id="@+id/buttonSet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@layout/selector"
+            android:drawableLeft="@drawable/pinteresticon"
+            android:shadowColor="@color/Black"
+	        android:shadowDx="1.2"
+	        android:shadowDy="1.2"
+	        android:shadowRadius="1.2"
+	        android:textColor="@color/White"
+            android:text="Sign Up With Pinterest" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@layout/selector"
+            android:drawableLeft="@drawable/fbicon"
+            android:shadowColor="@color/Black"
+	        android:shadowDx="1.2"
+	        android:shadowDy="1.2"
+	        android:shadowRadius="1.2"
+	        android:textColor="@color/White"
+            android:text="Sign Up With Facebook" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@layout/selector"
+            android:drawableLeft="@drawable/treebutton"
+            android:shadowColor="@color/Black"
+	        android:shadowDx="1.2"
+	        android:shadowDy="1.2"
+	        android:shadowRadius="1.2"
+	        android:textColor="@color/White"
+            android:text="Try It Out First" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/tree" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/buttonSet"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="36dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="About"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/White" />
+
+        <TextView
+            android:id="@+id/textBreak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            
+            android:text="|"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/White" />
+
+        <TextView
+            android:id="@+id/textContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Contact"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/White" />
+    </LinearLayout>
+
+</RelativeLayout>

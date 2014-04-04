@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <item android:state_pressed="true"
+        android:drawable="@color/Purple"
+        android:bottomRightRadius="10dp"
+        android:bottomLeftRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"/> <!-- pressed -->
+    <item android:drawable="@color/Silver"
+          android:bottomRightRadius="10dp"
+          android:bottomLeftRadius="10dp"
+          android:topLeftRadius="10dp"
+          android:topRightRadius="10dp"/> <!-- default -->
+</selector>
+
