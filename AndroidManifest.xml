@@ -10,9 +10,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/sicon"
+        android:icon="@drawable/sapplaunch"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme" android:logo="@drawable/siconab">
         <activity
             android:name="com.teamviperstrike.pennysaved.MainActivity"
             android:label="@string/app_name"
@@ -22,6 +22,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamviperstrike.pennysaved.Profile"
+            android:label="@string/app_name" >
         </activity>
     </application>
 

@@ -163,32 +163,40 @@ public final class R {
         public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int buttonbgdown=0x7f020000;
-        public static final int buttonbgup=0x7f020001;
-        public static final int fbicon=0x7f020002;
-        public static final int ic_launcher=0x7f020003;
-        public static final int pinteresticon=0x7f020004;
-        public static final int psbg=0x7f020005;
-        public static final int psicon=0x7f020006;
-        public static final int sicon=0x7f020007;
-        public static final int tree=0x7f020008;
-        public static final int treebutton=0x7f020009;
+        public static final int actionbg=0x7f020000;
+        public static final int buttonbgdown=0x7f020001;
+        public static final int buttonbgup=0x7f020002;
+        public static final int email=0x7f020003;
+        public static final int fbicon=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
+        public static final int pinteresticon=0x7f020006;
+        public static final int psbg=0x7f020007;
+        public static final int psicon=0x7f020008;
+        public static final int sapplaunch=0x7f020009;
+        public static final int sbicon=0x7f02000a;
+        public static final int sicon=0x7f02000b;
+        public static final int siconab=0x7f02000c;
+        public static final int slauncher=0x7f02000d;
+        public static final int tree=0x7f02000e;
+        public static final int treebutton=0x7f02000f;
     }
     public static final class id {
-        public static final int action_settings=0x7f090009;
-        public static final int button1=0x7f090002;
-        public static final int button2=0x7f090003;
-        public static final int button3=0x7f090004;
-        public static final int buttonSet=0x7f090001;
-        public static final int imageView1=0x7f090005;
-        public static final int textAbout=0x7f090006;
-        public static final int textBreak=0x7f090007;
-        public static final int textContact=0x7f090008;
-        public static final int textView1=0x7f090000;
+        public static final int button1=0x7f090004;
+        public static final int button2=0x7f090005;
+        public static final int button3=0x7f090006;
+        public static final int buttonSet=0x7f090002;
+        public static final int iconImage=0x7f09000a;
+        public static final int imageView1=0x7f090000;
+        public static final int linearLayout1=0x7f090003;
+        public static final int textAbout=0x7f090007;
+        public static final int textBreak=0x7f090008;
+        public static final int textContact=0x7f090009;
+        public static final int textView1=0x7f090001;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int selector=0x7f030001;
+        public static final int activity_profile=0x7f030001;
+        public static final int selector=0x7f030002;
     }
     public static final class menu {
         public static final int main=0x7f080000;
